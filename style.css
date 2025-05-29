@@ -17,3 +17,14 @@
   top: 50%;
   left: 50%;
 }
+
+.button:hover {
+  color: rgb(5, 255, 5);
+}
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.no-scroll {
+  overflow: hidden;
+}

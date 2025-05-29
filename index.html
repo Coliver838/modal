@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <button class="button">тиць</button>
-    <div class="backdrop">
+    <button data-modal-open class="button">тиць</button>
+    <div data-modal class="backdrop is-hidden">
       <div class="modal">
-        <button class="colse">open</button>
+        <button data-modal-close class="colse">open</button>
       </div>
     </div>
   </body>
+  <script src="modal.js"></script>
 </html>
